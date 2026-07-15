@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme{
+    --color-orange-accent: #F97316;
+    --animate-floating: floating 2.5s ease-in-out infinite;
+    --animate-slide: slide 0.1s linear 1;
+    @keyframes floating{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-15px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slide{
+        from{
+            transform: translateX(-50%);
+        }
+        to{
+            transform: translateX(0%);
+        }
+    }
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
