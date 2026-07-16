@@ -30,7 +30,7 @@ const Category = ({ products, darkMode }) => {
                 </ul>
             </div>
 
-            <div className='w-full grid gap-15 place-content-center grid-cols-[repeat(1,350px)] sm:p-5 sm:grid-cols-[repeat(auto-fit,minmax(250px,1fr))] sm:gap-10 md:p-15 md:gap-8 xl:p-15 xl:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] xl:gap-15'>
+            <div className='w-full grid gap-15 place-content-center grid-cols-[repeat(1,350px)] sm:p-5 sm:grid-cols-[repeat(auto-fit,minmax(250px,1fr))] sm:gap-10 md:p-15 md:gap-8 xl:p-15 xl:grid-cols-[repeat(auto-fit,minmax(250px,1fr))] xl:gap-15'>
                 {
                     productsToShow.slice(0,8).map(item => {
                         const { id, image, name, price } = item;
