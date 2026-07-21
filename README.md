@@ -14,7 +14,7 @@ A modern, responsive grocery landing page built with **React**, **Vite**, and **
 - Framer Motion animations
 - Search input functionality
 
-## 📸 Preview
+## Preview
 ui_screenshots/
 ui_screenrecord/
 
